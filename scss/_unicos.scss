@@ -1,0 +1,26 @@
+/*------------PARRAFO/FRASE CON CLASE UNICA------------*/
+
+
+.lista{
+    margin-top: 50px;
+    padding-bottom: 0.5%;
+}
+
+.titulopeli{
+    color: rgb(200, 239, 255);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.infopeli {
+    max-width: 100%; /* Limita el ancho del texto al del contenedor */
+    word-wrap: break-word; /* Permite dividir palabras si es necesario */
+    padding: 0 15px; /* Añade algo de espacio interno */
+    margin: 0 auto; /* Centra el texto */
+}
+
+.entrar{
+    color: #ffffff;
+    font-size: 1.4rem;
+    background-color: #FFB16D;
+}

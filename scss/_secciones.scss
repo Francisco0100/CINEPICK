@@ -1,0 +1,173 @@
+/*------------SECCIONES/DIVS o por el estilo------------*/
+
+.headerinfo{
+    text-align: center;
+    padding: 20px;
+}
+
+.menu{
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ul{
+    padding: 10px;
+    list-style-type: none;
+} 
+
+li{
+    padding: 10px;
+}
+
+section{
+    padding-bottom: 2%;
+}
+
+.rectangulo{
+    height: 35px;
+    width: 250px;
+    background-color: #dadada;
+    border: rgb(131, 38, 108) 4px solid;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.hrlista{
+    max-width: 40%;
+    margin-left:30%;
+}
+
+.linksmenu{
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: rgb(0, 0, 0) 3px solid;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.linksmenu:hover{
+    border-radius: 9px;
+    background-color: #2499c7;
+    color: rgb(255, 255, 255);
+}
+
+.nosfooter{
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: rgb(0, 0, 0) 3px solid;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 15px;  
+    display: inline-block;  
+    transition: all 0.1s;  
+}
+  
+.nosfooter:hover {
+    background-color: #2499c7;  
+    color: white;  
+    border-radius: 9px; 
+}
+  
+.nosotros h2 {
+    margin: 0;  
+    font-size: 1.5rem;  
+    color: black;
+}
+
+.estoy{
+    border: #2499c7 3px solid;
+}
+
+.estoy1{
+    background-color: #0087bd;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.hamburguesa {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.hr-custom {
+    border: 2px solid #ffffff; 
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    width: 100%; 
+  }
+
+.contenedor1{
+	margin: 0px auto;
+    padding: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+        "menus menus"
+        "info info"
+        "col3 col3"
+        "peli2 peli2";
+    gap: 10px;
+}
+
+.col1{
+    grid-area:menus;
+}
+
+.col2{
+    grid-area:info;
+}
+
+.col3{
+    grid-area:col3;
+}
+
+.col4{
+    grid-area:peli2;
+}
+
+.col-lg-8, .col-lg-4 {
+    padding: 0; 
+}
+
+.cal{
+    grid-area: calen;
+    margin: auto auto;
+}
+
+.infocal{
+    grid-area: infocal;
+}
+
+.pelis{
+    grid-area: pelis;
+}
+
+.contenedor2{
+	margin: 0px auto;
+    padding: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+        "menus menus"
+        "calen pelis"
+        "infocal pelis";
+    gap: 10px;
+}
+
+.grad{
+    background: linear-gradient(yellow, green, red, blue, purple, orange);
+    transition: all 4s;
+}

@@ -1,0 +1,208 @@
+/*------------IMAGENES/VIDEOS------------*/
+
+.logoredes{
+    width: 50px;
+    height: 50px;
+    margin: 2%;
+}
+
+
+.logoperfil{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.logoperfil:hover{
+    background-color: #2499c7;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.logopagina{
+    width: 90px;
+    height: 90x;
+}
+
+.video {
+    width: 100%; 
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.calendario{
+    width: 25%;
+}
+
+.posters{
+    width: 70%;
+    margin: 15px;
+    opacity: 0.5;
+}
+
+
+.posters:hover{
+    opacity: 1.5;
+}
+
+
+.espacios{
+    width: 25%;
+    margin: 3%
+}
+
+.nosotrosfoto{
+    width: 60%;
+}
+
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+  
+.redes .nosotros {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-left: 20px; 
+}
+  
+.redes .social-icons {
+    display: flex;
+    gap: 10px; 
+}
+
+.redes .logoredes {
+    width: 40px;  
+    height: 40px;
+    transition: 0.5s all;
+}
+
+.logoredes:hover{
+    width: 47px;
+    height: 47px;
+}
+
+
+
+.header-grid {
+    display: grid;
+    grid-template-columns: auto 1fr auto; 
+    align-items: center;
+    padding: 20px;
+}
+
+.header-grid h1 {
+    justify-self: start;
+    margin: 13px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+  
+.header-title {
+    margin: 0; 
+}
+  
+.header-profile{
+    justify-self: end;
+}
+  
+
+
+footer {
+    padding: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nosotros {
+    margin-right: auto;
+}
+
+.nosfooter {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px; 
+}
+
+
+
+main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+main p, main ul {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer {
+    margin-top: 0;
+}
+
+footer {
+    padding-bottom: 20px; 
+}
+
+.tamano{
+    width: 900px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+
+.formulariocont{
+    background-color: rgba(87, 111, 216, 0.11);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+        "form1 form3"
+        "form2 form3";
+    gap: 10px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.form1{
+    grid-area: form1;
+}
+
+.form2{
+    grid-area: form2;
+}
+
+.form3{
+    grid-area: form3;
+    padding-top: 30px;
+    margin: auto 20px;
+}
+
+.mainperfil{
+    padding-bottom: 10vw;
+    
+}

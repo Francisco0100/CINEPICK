@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/*------------INFO BASE------------*/
+
+header{
+    text-align: center;
+    background: linear-gradient(90deg, #109bd6, #0c2933);
+    background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
+}
+
+
+body, html{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+main{
+    background-image: url(../img/fondo1.jpg);
+    text-align: center;
+}
+
+footer{
+    background: linear-gradient(90deg, #109bd6, #0c2933);
+    background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
+    padding: 20px 0;
+}
